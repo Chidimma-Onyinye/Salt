@@ -1,0 +1,8 @@
+git init :
+git add :
+git commit: this takes the present state and takes a snapshot. ie anything you edit after saving is modified(M).
+git remote add (remote_name) : this adds the link to a remote git server to the git project. If it's to someone else, you use Upstream.
+git push (remote_name) (branch_name) : this pushes your local commits to the remote server
+
+git checkout -b (branch_name) : this will create a new branch out of the branch you are present
+git checkout (branch_name) : move to another branch that already exists.
